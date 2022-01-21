@@ -1,0 +1,121 @@
+body {
+    background-color: rgba(0, 0, 0, 0.719);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-position: right; */
+    /* background-attachment: fixed; para que la imagen de fondo quede fija */
+    font-family: "Luxurious Roman", cursive;
+    /* dar negrilla a los textos */
+    font-weight: 300;
+    /* añade el border y el padding */
+    box-sizing: border-box;
+    /* maximo de ancho */
+    max-width: 1000px;
+  
+    margin: 0 auto;
+  }
+  header {
+    background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+    width: 980px;
+    height: 150px;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+    display: inline-flex;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55acee;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .img-logo {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-left: 40px;
+  }
+  .menu {
+    padding-top: 30px;
+    padding-left: 340px;
+  }
+  .barramenu:hover a{
+    opacity: 0.7;
+  }
+  .menu a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  .barramenu {
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  nav li {
+    border-right: 1px solid rgb(13, 13, 14);
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+  .tittle{
+      text-align: center;
+      
+  }
+  .tittle h2{
+    font-size: 250%;
+  }
+  .seccionp2{
+      background-color: #5d4157;
+      overflow: hidden;
+      width: 970px;
+      padding-left: 30px;
+      
+  }
+  .img{
+    display: inline-flex;  
+  }
+  .img-galeria1{
+      width: 220px;
+  }
+  
+  .logo_footer {
+    width: 200px;
+  }
+  .pie {
+    background-color: rgba(32, 32, 32, 0.719);
+    display: inline-flex;
+    width: 990px;
+    padding: 5px;
+  }
+  .copy {
+    border-top: solid thin rgb(247, 243, 243);
+    padding-top: 8px;
+  }
+  .pie2 {
+    padding-left: 300px;
+    padding-top: 30px;
+  }
+  
